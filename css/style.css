@@ -28,3 +28,11 @@
 @media only screen and (min-width: 900px) {
   #logored {width: 875px;}
 }
+
+@media only screen and (min-width: 1100px) {
+  #logored {width: 1125px;}
+}
+
+@media only screen and (min-width: 1300px) {
+  #logored {width: 1275px;}
+}
