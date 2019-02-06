@@ -212,54 +212,57 @@
 
                     <div class="col s4 m5"></div>
                 
-                    <form class="col s4 m2" id="formLiquor"> 
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="wine" type="radio" />
-                            <span>Wine</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="beer" type="radio" />
-                            <span>Beer</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="vodka" type="radio" />
-                            <span>Vodka</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="tequila" type="radio" />
-                            <span>Tequila</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="whiskey" type="radio" />
-                            <span>Whiskey</span>
+
+                    <form class="col s4 m2" id="formLiquor> 
+                        <p data-list="spirits"></p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="wine" data-name="wine" type="radio" name="spirit"/>
+                                <span>Wine</span>
                             </label>
-                        </p> 
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="gin" type="radio" />
-                            <span>Gin</span>
-                        </label>
-                        </p> 
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="rum" type="radio" />
-                            <span>Rum</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupZ" id="bourbon" type="radio" />
-                            <span>Bourbon</span>
-                        </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="beer" data-name="beer" type="radio" name="spirit" />
+                                <span>Beer</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="vodka" data-name="vodka" type="radio" name="spirit" />
+                                <span>Vodka</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="tequila" data-name="tequila" type="radio" name="spirit"/>
+                                <span>Tequila</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="whiskey" data-name="whiskey" type="radio" name="spirit" />
+                                <span>Whiskey</span>
+                                </label>
+                            </p> 
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="gin" data-name="gin" type="radio" name="spirit" />
+                                <span>Gin</span>
+                            </label>
+                            </p> 
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="rum" data-name="rum" type="radio" name="spirit" />
+                                <span>Rum</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap liquor" id="bourbon" data-name="bourbon" type="radio" name="spirit"/>
+                                <span>Bourbon</span>
+                            </label>
+                            </p>
                         </p>
                     </form>
                 
@@ -272,7 +275,7 @@
 
   <!-- Wine Button -->
   <div class="row center">
-    <a id="wine-button" class="btn-large waves-effect waves-light red">Submit spirit choice</a>
+    <a id="liquor-button" class="btn-large waves-effect waves-light red">Submit spirit choice</a>
   </div>
 
   <!-- Your Perfect Cuisine Row -->
