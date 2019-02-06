@@ -16,15 +16,3 @@
 #maintext {
   font-family: fantasy;
 }
-
-@media only screen and (min-width: 400px) {
-  #logored {width: 375px;}
-}
-
-@media only screen and (min-width: 700px) {
-  #logored {width: 675px;}
-}
-
-@media only screen and (min-width: 900px) {
-  #logored {width: 875px;}
-}
