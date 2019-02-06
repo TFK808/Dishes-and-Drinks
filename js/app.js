@@ -153,3 +153,13 @@ nightIn.displayWine = function (array) {
     $('.wine img.wineImage').attr('src', array.image_url);
     $('.wine h2').html(description);
 };
+
+
+// ******* Reset Button ******* //
+$(document).ready(function() {
+    $("#reset-button").click(function() {
+        $("#formFood")[0].reset();
+        $("#formLiquor")[0].reset();
+        $("#inputResults")[0].reset();
+    });
+});
