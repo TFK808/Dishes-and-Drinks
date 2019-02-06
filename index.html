@@ -26,7 +26,7 @@
     <nav class="red darken-4" role="navigation">
         <div class="nav-wrapper container"><a id="logo-container"></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Eat, Drink, Enjoy!</a></li>
+                <li><a href="#"><img src="images\iconlogowhite.png" width="200"></a></li>
             </ul>
 
             <!-- Menu Hamburger -->
@@ -43,7 +43,7 @@
         <br><br>
         
             <div class="row center">
-                <img class="responsive-img" src="images\iconlogored.png" id="logored">
+                <img class="responsive-img" src="images\iconlogored.png" id="logored" width="1275">
             </div>
             
             <div class="row center">
@@ -58,24 +58,28 @@
         <div class="section">
             <div class="row center">
 
+                <div class="col s2 m2"></div>
+
                 <!-- INGREDIENT AND STYLE ROW -->
-                <div class="col s6 m6">
+                <div class="col s4 m4">
                     <div class="icon-block">
-                        <h2 class="center"><img src="images\iconprotein.png" width="150"></h2>
+                        <h2 class="center"><img src="images\iconprotein.png" class="responsive-img" width="150"></h2>
                     </div>
                 </div>
 
-                <div class="col s6 m6">
+                <div class="col s4 m4">
                     <div class="icon-block">
-                        <h2 class="center"><img src="images\iconstyle.png" width="150"></h2>
+                        <h2 class="center"><img src="images\iconstyle.png" class="responsive-img" width="150"></h2>
                     </div>
                 </div>
+
+                <div class="col s2 m2"></div>
 
             </div>
         </div>
     </div>
 
-  <!-- Main Content Third Row/Three Columns -->
+  <!-- Food Choice Row/Three Columns -->
   <div class="container">
         <div class="section">
             <div class="row">
@@ -192,30 +196,66 @@
     </div>
   <!-- Submit Button -->
   <div class="row center">
-    <a id="submit-button" class="btn-large waves-effect waves-light red">Submit your choices</a>
+    <a id="submit-button" class="btn-large waves-effect waves-light red">Submit your choice</a>
   </div>
 
-  <!-- Your Perfect Cuisine Row -->
+  <!-- Wine Row -->
   <div class="container">
         <div class="section">
             <div class="row">
                 <div class="icon-block">
-                    <h2 class="center"><img src="images\iconwine.png" width="150"></h2>
-                    <h5 class="center">CHOOSE YOUR WINE</h5>
+                    <h2 class="center"><img src="images\iconcocktail.png" class="responsive-img" width="150"></h2>
+                    <h5 class="center">CHOOSE YOUR SPIRIT</h5>
 
                     <div class="col s4 m5"></div>
                 
                     <form class="col s4 m2"> 
                         <p>
                         <label>
-                            <input class="with-gap" name="groupZ" id="choice15" type="radio" />
-                            <span>White</span>
+                            <input class="with-gap" name="groupZ" id="wine" type="radio" />
+                            <span>Wine</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupZ" id="choice16" type="radio" />
-                            <span>Red</span>
+                            <input class="with-gap" name="groupZ" id="beer" type="radio" />
+                            <span>Beer</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="vodka" type="radio" />
+                            <span>Vodka</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="tequila" type="radio" />
+                            <span>Tequila</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="whiskey" type="radio" />
+                            <span>Whiskey</span>
+                            </label>
+                        </p> 
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="gin" type="radio" />
+                            <span>Gin</span>
+                        </label>
+                        </p> 
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="rum" type="radio" />
+                            <span>Rum</span>
+                        </label>
+                        </p>
+                        <p>
+                        <label>
+                            <input class="with-gap" name="groupZ" id="bourbon" type="radio" />
+                            <span>Bourbon</span>
                         </label>
                         </p>
                     </form>
@@ -229,7 +269,7 @@
 
   <!-- Wine Button -->
   <div class="row center">
-    <a id="wine-button" class="btn-large waves-effect waves-light red">Submit your wine choice</a>
+    <a id="wine-button" class="btn-large waves-effect waves-light red">Submit spirit choice</a>
   </div>
 
   <!-- Your Perfect Cuisine Row -->
@@ -237,8 +277,8 @@
         <div class="section">
             <div class="row">
                 <div class="icon-block">
-                    <h2 class="center"><img src="images\iconmeal.png" width="150"></h2>
-                    <h5 class="center">YOUR PERFECT CUISINE</h5>
+                    <h2 class="center"><img src="images\iconmeal.png" class="responsive-img" width="150"></h2>
+                    <h5 class="center">YOUR PERFECT MEAL</h5>
                     <div class="center light" id="inputResults"></div>
                 </div>
             </div>
@@ -256,7 +296,7 @@
             <div class="row">
                 <div class="row center">
                     <h5 class="center white-text">About Dishes and Drinks</h5>
-                    <p class="center grey-text text-lighten-4">The easiest way for home chefs, and wine lovers to choose what to make for their next meal by selecting a single protein, and automatically pairing it with the perfect wine selections.  It's fast, it's simple.  Eat, drink, and enjoy!</p>
+                    <p class="center grey-text text-lighten-4">The easiest way for home chefs, and spirit lovers to choose what to make for their next meal by selecting a single ingredient or style, and seamlessly pairing it with the perfect spirit selections.  It's fast, it's simple.  Eat, drink, and enjoy!</p>
                 </div>
             </div>
         </div>
@@ -274,6 +314,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/app.js"></script>
 
   </body>
 </html>
