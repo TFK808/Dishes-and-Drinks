@@ -39,14 +39,13 @@ $(document).on("click", ".liquor", function() {
     })
 
 
-// ******* Reset Button ******* //
-$(document).ready(function() {
-    $("#reset-button").click(function() {
-        $("#inputResults").empty();
-    });
-});
 
-//       })
+    // ******* Reset Button ******* //
+    $(document).ready(function() {
+        $("#reset-button").click(function() {
+            $("#inputResults").empty();
+        })
+    })
     
 });
 
