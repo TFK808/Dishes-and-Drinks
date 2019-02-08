@@ -89,6 +89,7 @@ $(document).on("click", ".liquor", function() {
 $(document).ready(function() {
     $("#reset-button").click(function() {
         $("#inputResults").empty();
+        $("#foodResults").empty();
     });
 });
 
