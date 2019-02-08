@@ -5,18 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
-
-.icon-block {
+ .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
-
 #maintext {
   font-family: fantasy;
 }
-
 .drink {
   width: 350px;
+}
+@media only screen and (min-width: 400px) {
+  #medit {font-size: 8px;}
+}
+@media only screen and (min-width: 600px) {
+  #medit {font-size: 14px;}
 }
