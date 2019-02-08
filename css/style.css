@@ -5,21 +5,27 @@
  *
  * Made By MaterializeCSS.com
  */
+
  .icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-    font-size: inherit;
-}
-#maintext {
-  font-family: fantasy;
-}
-.drink {
-  width: 350px;
-}
-@media only screen and (min-width: 400px) {
-  #medit {font-size: 8px;}
-}
-@media only screen and (min-width: 600px) {
-  #medit {font-size: 14px;}
-}
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+  
+  #maintext {
+    font-family: fantasy;
+  }
+  
+  
+  @media only screen and (min-width: 400px) {
+    .drink {width: 180px; margin-left: 10px; margin-right: 10px;}
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .drink {width: 250px;}
+  }
+  
+  @media only screen and (min-width: 800px) {
+    .drink {width: 400px;}
+  }
