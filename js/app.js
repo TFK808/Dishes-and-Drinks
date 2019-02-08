@@ -130,16 +130,13 @@ $(document).on("click", ".liquor", function() {
     })
 
 
-// ******* Reset Button ******* //
-$(document).ready(function() {
-    $("#reset-button").click(function() {
-        $("#formFood")[0].reset();
-        $("#formLiquor")[0].reset();
-        $("#inputResults")[0].reset();
-    });
-});
+    // ******* Reset Button ******* //
 
-//       })
+    $(document).ready(function() {
+        $("#reset-button").click(function() {
+            $("#inputResults").empty();
+        })
+    })
     
 });
 
