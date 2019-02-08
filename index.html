@@ -91,67 +91,71 @@
 
                     <!-- Column 1 -->
                     <div class="col s4 m4">
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice01" type="radio" />
-                            <span>Beef</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice02" type="radio" />
-                            <span>Chicken</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice03" type="radio" />
-                            <span>Fish</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice04" type="radio" />
-                            <span>Pork</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice05" type="radio" />
-                            <span>Veggie</span>
-                        </label>
-                        </p>
+                        <form action="GET" id="post" class="clearfix form">
+                            <p>
+                                    <div class="flexParent">
+                                            <div class="foodDiv">
+                            <label>
+                                <input class="with-gap protein" name="ingredient" id="Beef" type="radio" data-name="Beef" />
+                                <span>Beef</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap protein" name="ingredient" id="Chicken" type="radio" data-name="Chicken" />
+                                <span>Chicken</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap protein" name="ingredient" id="Fish" type="radio" data-name="Fish" />
+                                <span>Fish</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap protein" name="ingredient" id="Pork" type="radio" data-name="Pork"/>
+                                <span>Pork</span>
+                            </label>
+                            </p>
+                            <p>
+                            <label>
+                                <input class="with-gap protein" name="ingredient" id="veggie" type="radio" data-name="Veggie" />
+                                <span>Veggie</span>
+                            </label>
+                            </p>
+                        </form>
                     </div>
 
                     <!-- Column 2 -->
                     <div class="col s4 m4">
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice06" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="American" type="radio" data-name="American"/>
                             <span>American</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice07" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Spanish" type="radio" data-name="Spanish" />
                             <span>Spanish</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice08" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Italian" type="radio" data-name="Italian" />
                             <span>Italian</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice09" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Japanese" type="radio" data-name="Japanese" />
                             <span>Japanese</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice10" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Greek" type="radio" data-name="Greek" />
                             <span>Greek</span>
                         </label>
                         </p>
@@ -161,31 +165,26 @@
                     <div class="col s4 m4">
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice11" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="French" type="radio" data-name="French"/>
                             <span>French</span>
                         </label>
                         </p>
+                        
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice12" type="radio" />
-                            <span>Thai</span>
-                        </label>
-                        </p>
-                        <p>
-                        <label>
-                            <input class="with-gap" name="groupX" id="choice13" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Indian" type="radio" data-name="Indian"/>
                             <span>Indian</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice14" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Mediterranean" type="radio" data-name="Mediterranean" />
                             <span>Mediterranean</span>
                         </label>
                         </p>
                         <p>
                         <label>
-                            <input class="with-gap" name="groupX" id="choice15" type="radio" />
+                            <input class="with-gap protein" name="groupX" id="Mexican" type="radio" data-name="Mexican"/>
                             <span>Mexican</span>
                         </label>
                         </p>
@@ -215,18 +214,6 @@
 
                     <form class="col s4 m2" id="formLiquor"> 
                         <p data-list="spirits"></p>
-                            <p>
-                            <label>
-                                <input class="with-gap liquor" id="wine" data-name="wine" type="radio" name="spirit"/>
-                                <span>Wine</span>
-                            </label>
-                            </p>
-                            <p>
-                            <label>
-                                <input class="with-gap liquor" id="beer" data-name="beer" type="radio" name="spirit" />
-                                <span>Beer</span>
-                            </label>
-                            </p>
                             <p>
                             <label>
                                 <input class="with-gap liquor" id="vodka" data-name="vodka" type="radio" name="spirit" />
