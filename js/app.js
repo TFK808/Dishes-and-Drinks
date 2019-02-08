@@ -37,7 +37,7 @@ $(document).on("click", ".protein", function() {
               foodDiv.append(p);
               foodDiv.append(foodImage);
   
-              $("#inputResults").prepend(foodDiv)
+              $("#foodResults").prepend(foodDiv)
           }
       })
       });
