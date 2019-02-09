@@ -16,16 +16,23 @@
   #maintext {
     font-family: fantasy;
   }
+
+  #formFood {
+    padding-left: 15%;
+  }
   
   
   @media only screen and (min-width: 400px) {
     .drink {width: 180px; margin-left: 10px; margin-right: 10px;}
+    .protein {width: 180px; margin-left: 10px; margin-right: 10px;}
   }
   
   @media only screen and (min-width: 600px) {
     .drink {width: 250px;}
+    .protein {width: 250px;}
   }
   
   @media only screen and (min-width: 800px) {
     .drink {width: 400px;}
+    .protein {width: 400px;}
   }
