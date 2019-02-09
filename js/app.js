@@ -33,14 +33,23 @@ $(document).on("click", ".protein", function() {
               // add attributes to image
               foodImage.addClass("food");
               foodImage.attr("src", resultsFood[i].recipe.image);
+              foodImage.attr("href", resultsFood[i].recipe.url);
               // append image and name of drink
               foodDiv.append(p);
               foodDiv.append(foodImage);
   
               $("#foodResults").prepend(foodDiv)
           }
-      })
-      });
+
+        // Make the food clickable/go to recipe when clicked
+        $(".food").on("click", function(){
+
+            var recipe = $(this).attr("href");
+            console.log(recipe);
+            var recipeSite = window.open(recipe);
+        })  
+    })
+});
     
     
 
